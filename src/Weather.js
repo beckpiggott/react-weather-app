@@ -74,13 +74,13 @@ function changeCity(event) {
           <li className="description">Sunny</li>
           <li><span className="temperature">21</span>
             <span className="units">
-            <a href="/">
+            
           <sup>°C</sup>
-        </a>{" "}
+        {" "}
         |
-        <a href="/">
+        
           <sup>°F</sup>
-        </a>
+        
             </span>
           </li>
         </ul>
