@@ -1,0 +1,36 @@
+h1 {
+  color: #364a5d;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  margin: 70 auto;
+}
+
+h2,
+h4,
+p {
+  color: #fff;
+}
+
+.App {
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+.container {
+  margin: 0 auto;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: #364a5d;
+  max-width: 600px;
+  padding: 0;
+  background-color: #b2bbbf;
+}
+
+
+
+
