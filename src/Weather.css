@@ -1,80 +1,78 @@
 .btn-primary {
-    background-color: #364a5d;
-    border-color: #364a5d;
-    width: 90px;
-   
-    
-  }
-  .btn-primary:hover {
-    background-color: #1f2b36;
-    border-color: #1f2b36;
-  }
-  
-  .g-3 {
-    padding: 10px;
-    margin: 0 auto;
-    
-  }
-  
-  .col-sm-6 {
-    padding-bottom: 20px;
-  }
-
-  .col-sm-3 {
-    text-align: center;
-    padding-left: 30px;
-  }
-  .weatherIcon {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    width: 100%;
-    text-align: center;
-    margin-left: 10px;
-  }
-
+  background-color: #364a5d;
+  border-color: #364a5d;
+  width: 90px;
  
-  .description {
-    font-weight: bold;
-    font-size: 30px;
-  }
-  .description:first-letter {
-    text-transform: capitalize;
-  }
-
-
-  .temperature {
-    font-size: 45px;
-    font-weight: bold;
-    color: #364a5d;
-  }
-  .units {
-    position: relative;
-    top: -10px;
-    color: #364a5d;
-    font-size: 15px;
-  }
-
-
-  .weatherExtras {
-    margin-top: 87px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
   
+}
+.btn-primary:hover {
+  background-color: #1f2b36;
+  border-color: #1f2b36;
+}
 
-
-  ul {
-    list-style-type: none;
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
-
-  .currentWeather {
-    margin-left: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
+.g-3 {
+  padding: 10px;
+  margin: 0 auto;
   
+}
+
+.col-sm-6 {
+  padding-bottom: 20px;
+}
+
+.col-sm-3 {
+  text-align: center;
+  padding-left: 30px;
+}
+.weatherIcon {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  margin-left: 10px;
+}
+
+
+.description {
+  font-weight: bold;
+  font-size: 30px;
+}
+.description:first-letter {
+  text-transform: capitalize;
+}
+
+
+.temperature {
+  font-size: 45px;
+  font-weight: bold;
+  color: #364a5d;
+}
+.units {
+  position: relative;
+  top: -10px;
+  color: #364a5d;
+  font-size: 15px;
+}
+
+
+.weatherExtras {
+  margin-top: 87px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.currentWeather {
+  margin-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
