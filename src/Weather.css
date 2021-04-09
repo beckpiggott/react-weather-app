@@ -43,14 +43,15 @@
 
 
   .temperature {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
     color: #364a5d;
   }
   .units {
     position: relative;
-    top: -22px;
+    top: -10px;
     color: #364a5d;
+    font-size: 15px;
   }
 
 

@@ -1,7 +1,7 @@
 h1 {
   color: #364a5d;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 55px;
   margin-bottom: 16px;
 }
 
@@ -17,6 +17,10 @@ p {
   color: #fff;
 }
 
+p {
+  text-align: center;
+}
+
 .App {
   font-family: "Raleway", sans-serif;
   text-align: left;
@@ -29,6 +33,10 @@ p {
   max-width: 600px;
   padding: 0;
   background-color: #b2bbbf;
+}
+
+footer {
+  text-align: center;
 }
 
 
