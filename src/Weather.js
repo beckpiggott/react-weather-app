@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import ReactAnimatedWeather from "react-animated-weather";
 import "./Weather.css";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
 
@@ -15,8 +16,7 @@ function displayWeather(response) {
     humidity: response.data.main.humidity,
     city: response.data.name,
     description: response.data.weather[0].description,
-    date: "Wednesday",
-    time: "07:00"
+    date: new Date (response.data.dt * 1000)
   });
 }
 
@@ -62,8 +62,8 @@ if (weatherData.ready) {
         <div className="currentWeather">
       <h1>{weatherData.city}</h1>
         <ul>
-          <li>{weatherData.date}</li>
-          <li>{weatherData.time}</li>
+          <li><FormattedDate date={weatherData.date} /></li>
+          
           <li className="description">{weatherData.description}</li>
           <li><span className="temperature">{Math.round(weatherData.temperature)}</span>
             <span className="units">
@@ -83,7 +83,7 @@ if (weatherData.ready) {
         <div className="col-sm-4 weatherExtras">
           <ul>
             <li>Humidity | <strong>{weatherData.humidity}</strong><strong>%</strong></li>
-            <li>Wind | <strong>{weatherData.wind}</strong><strong>km/h</strong></li>
+            <li>Wind | <strong>{Math.round(weatherData.wind)}</strong><strong>km/h</strong></li>
           </ul>
         </div>
       </div>
