@@ -2,7 +2,7 @@ h1 {
   color: #364a5d;
   font-weight: bold;
   font-size: 55px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 body {
@@ -37,6 +37,8 @@ p {
 
 footer {
   text-align: center;
+  font-size: 10px;
+  margin: 0;
 }
 
 

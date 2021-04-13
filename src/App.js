@@ -5,8 +5,10 @@ import Forecast from "./Forecast";
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <div class="container">
+      <Weather defaultCity="Sydney"/>
       <Forecast />
+      </div>
     </div>
     
     
