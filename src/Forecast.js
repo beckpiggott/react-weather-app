@@ -65,7 +65,7 @@ export default function Forecast() {
     size= {50}
     animate={true}
           /></div>
-             <div class="forecast-temperature">19°C</div>
+             <div className="forecast-temperature">19°C</div>
          </div>
         
      </div>
