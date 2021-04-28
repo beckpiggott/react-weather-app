@@ -47,7 +47,7 @@ if (weatherData.ready) {
   return (
     <div className="form">
       <form className="row g-3" onSubmit={handleSubmit}>
-        <div className="col-sm-6">
+        <div className="col-sm-8">
           <input
             type="text"
             className="form-control"
@@ -56,17 +56,10 @@ if (weatherData.ready) {
             onChange={handleCity}
           />
         </div>
-        <div className="col-sm-3">
+        <div className="col-sm-4">
           <button type="submit" className="btn btn-primary mb-3" >
             Search
           </button>
-        </div>
-        <div className="col-sm-3">
-        <button
-        type="submit"
-        className="btn btn-primary mb-3">
-          Current
-        </button>
         </div>
       </form>
       <WeatherInfo data={weatherData}/>
