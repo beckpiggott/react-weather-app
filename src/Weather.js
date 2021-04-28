@@ -4,6 +4,7 @@ import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
 import Forecast from "./Forecast";
 
+
 export default function Weather(props) {
 
   const [weatherData, setWeatherData] = useState({ ready: false});
@@ -69,7 +70,8 @@ if (weatherData.ready) {
         </div>
       </form>
       <WeatherInfo data={weatherData}/>
-      <Forecast coordinates={weatherData.coordinates} />
+      <Forecast coordinates={weatherData.coordinates}/>
+     
 
       
  </div>
